@@ -15,7 +15,7 @@ export default function Container1(){
             </div>
             <div className="cont1R2">
                 <h1>About Us</h1>
-                <LoremIpsum p={2}>
+                <LoremIpsum p={2}/>
             </div>
             <div className="cont1R3">
                 <h1>Explore more</h1>

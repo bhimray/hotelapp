@@ -20,8 +20,8 @@ function Navigation(){
             <div >
                 <NavLink to="/">
                     <div className="symbol">
-                        <CycloneSharpIcon sx={{ fontSize:100, color:"white"}}/>
-                        <h1>R</h1>
+                        <CycloneSharpIcon sx={{ fontSize:100, color:"white", animation:"rotate infinite"}}/>
+                        
                     </div>
                 </NavLink>
             </div>

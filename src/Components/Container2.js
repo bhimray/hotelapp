@@ -3,8 +3,9 @@ import {useState} from "react"
 import "./Container2.css"
 import "./tab.css"
 import image from "./images/maldivesTravel.jpg"
-import imagebg from "./images/weddingDecoration.jpg"
+import imagebg from "./images/bottomViewBuiding.jpg"
 import { Parallax } from "react-parallax"
+import LoremIpsum from "react-lorem-ipsum"
 
 export default function Container2(){
     const [toggleState, setToggleState]= useState(1)
@@ -14,7 +15,7 @@ export default function Container2(){
     };
     
     return(
-        <Parallax bgImage={imagebg} strength={500} className="tabContainer">
+        <Parallax bgImage={imagebg} strength={200} className="tabContainer">
             <div className="cont2R1">
                 first
             </div>
@@ -40,7 +41,7 @@ export default function Container2(){
                     <img src={image} height="400px" width="500px" alt="This is picture"></img>
                     <div>
                         <h1>Tab1</h1>
-                        <p>Hi, this is hotel where you spend money to stay and eat food.</p>
+                        <LoremIpsum p={2}/>
                     </div>
                 </div>
 
@@ -48,7 +49,7 @@ export default function Container2(){
                     <img src={image} height="400px" width="500px" alt="This is picture"></img>
                     <div>
                         <h1>Tab2</h1>
-                        <p>Hi, this is hotel where you spend money to stay and eat food.</p>
+                        <LoremIpsum p={2}/>
                     </div>
                 </div>
 
@@ -56,7 +57,7 @@ export default function Container2(){
                     <img src={image} height="400px" width="500px" alt="This is picture"></img>
                     <div>
                         <h1>Tab3</h1>
-                        <p>Hi, this is hotel where you spend money to stay and eat food.</p>
+                        <LoremIpsum p={2}/>
                     </div>
                 </div>
 
@@ -64,7 +65,7 @@ export default function Container2(){
                     <img src={image} height="400px" width="500px" alt="This is picture"></img>
                     <div>
                         <h1>Tab4</h1>
-                        <p>Hi, this is hotel where you spend money to stay and eat food.</p>
+                        <LoremIpsum p={2}/>
                     </div>
                 </div>
 

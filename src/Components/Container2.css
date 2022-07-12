@@ -32,9 +32,16 @@ a{
 .content {
     background: white;
     display: none;
+    padding-left:0em;
   }
 
 .active-content {
     display:flex;
+    gap:20px;
+    padding:20px;
+    text-align: justify;
   }
+.active-content:nth-child(2){
+    padding-left:0em;
+}
 
