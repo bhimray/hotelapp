@@ -2,10 +2,8 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import {useState} from "react";
 
-import "./header.css";
-import DeckIcon from '@mui/icons-material/Deck';
-var logo=DeckIcon;
-
+import "./Navigation.css";
+import CycloneSharpIcon from '@mui/icons-material/CycloneSharp';
 function Navigation(){
     const [navBar, setNavBar] = useState(false)
     const changeBackground=()=>{
@@ -18,15 +16,12 @@ function Navigation(){
     window.addEventListener("scroll", changeBackground);
 
     return(
-        
-        
         <div className={navBar? "navBar active":"navBar"}>
-            
             <div >
                 <NavLink to="/">
-                    <div>
-                        
-                        <p>Company name</p>
+                    <div className="symbol">
+                        <CycloneSharpIcon sx={{ fontSize:100, color:"white"}}/>
+                        <h1>R</h1>
                     </div>
                 </NavLink>
             </div>
@@ -38,13 +33,12 @@ function Navigation(){
                 </li>
                 <li className="nav-item">
                     <NavLink className="nav-link" to="/about">
-                        About Us
-                        <span className="sr-only">(current)</span>
+                        About
                     </NavLink>
                 </li>
                 <li className="nav-item">
                     <NavLink className="nav-link" to="/room">
-                        Room Service
+                        Room
                     </NavLink>
                 </li>
                 <li className="nav-item">
@@ -54,12 +48,12 @@ function Navigation(){
                 </li>
                 <li className="nav-item">
                     <NavLink className="nav-link" to="/booking">
-                        Online Booking
+                        Booking
                     </NavLink>
                 </li>
                 <li className="nav-item">
                     <NavLink className="nav-link" to="/contact">
-                        Contact Us
+                        Contact
                     </NavLink>
                 </li>
                 

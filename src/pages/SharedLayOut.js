@@ -1,6 +1,8 @@
 import React from "react"
 import {Link, Outlet} from "react-router-dom"
 import Navigation from "./Navigation"
+import Footer from "./footer"
+import Container4 from "../Components/Container4"
 
 function Home(){
     return(
@@ -9,7 +11,8 @@ function Home(){
             <section>
                 <Outlet/>
             </section>
-            <footer>Footer</footer>
+            <Container4/>
+            <Footer/>
         </>
     );
 };

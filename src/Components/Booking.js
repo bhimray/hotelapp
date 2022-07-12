@@ -76,7 +76,7 @@ function Booking(){
                     </div>
                     <div className="submit">
                         <label for="submit"></label>
-                        <input type="submit" id="submit"></input>
+                        <input type="submit" id="submit" ></input>
                     </div>
 
                 </form>

@@ -10,7 +10,7 @@ const logo = <FontAwesomeIcon icon={faHotel} />
 export default function Container4(){
     return(
         <div className="Container4">
-            <p className="logo">{logo}</p>
+            
             <div className="Cont4R2">
                 <div>
                     <h1>About Hotel</h1>

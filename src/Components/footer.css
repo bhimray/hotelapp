@@ -1,14 +1,24 @@
-.Container5{
+.footer{
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
+    font-size: 20px;
     align-items: center;
+    background-color: #F8D3CF;
+    color:#000000;
 }
 
-.Cont5R1>ul{
+.footer1>ul{
     display:flex;
+    color:#000000;
+    font-size: 20px;
+
 }
 
-.Cont5R1>ul>li{
+.footer1>ul>li{
     padding:5px;
+    list-style: none;
+    color:#000000;
+    font-size: 20px;
+
 }

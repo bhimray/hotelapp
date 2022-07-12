@@ -15,11 +15,11 @@ a{
     margin:0px;
 }
 
-button{
+.tabs{
   height:50px;
-  background-color: transparent;
   border:none;
   width:100px;
+  background-color: transparent;
 }
 
 .active-tabs{

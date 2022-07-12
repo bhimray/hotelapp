@@ -1,0 +1,35 @@
+.navBar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#212529;
+    color:white;
+    font-weight:50em;
+    position:sticky;
+    top:0;
+    margin-bottom:20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 1.4em;
+}
+.symbol{
+    color:linear-gradient(to bottom, #e72c83 0%,#a742c6 100%);
+    font-size: 20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.navBar.active{
+    background-color:#07090a;
+    position:sticky,fixed;
+    top:0;
+    right:0;
+    left:0;
+    z-index: 999999;
+    padding-left:20px;
+    padding-right:20px;
+    font-size: 1.4em;
+}

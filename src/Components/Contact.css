@@ -1,0 +1,128 @@
+.contactback{
+    grid-area: "R1"
+    "R2"
+    "R3";
+    background-color: #FFFFFF;
+    font-size: 1.4em;
+    
+}
+.contactContainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:40px;
+    margin:0em;
+    background-color: #fafafa!important;
+    z-index: 100;
+    padding:150px;
+}
+.contactForm{
+    width: fit-content;
+    padding:100px;
+    
+}
+
+.formC1{
+    display:grid;
+    grid-gap:5px;
+    margin-bottom: 10px;
+     
+}
+.formC1>input{
+    height: 40px;
+    width:300%;
+    height: 40px;
+    border-width:2px;
+    border: 1px solid #e9e9ea;
+    border-radius: 0!important;
+    padding:2px;
+    height: calc(2em + 0.75rem + 5px);
+    color: #202027;
+    font-size: 1em;
+    font-weight: 400;
+
+}
+.formC2{
+    display:grid;
+    grid-gap:5px;
+    margin-bottom: 10px;
+}
+.formC2>input{
+    height: 40px;
+    border-width:2px;
+    border: 1px solid #e9e9ea;
+    border-radius: 0!important;
+    padding:2px;
+    height: calc(2em + 0.75rem + 5px);
+    color: #202027;
+    font-size: 1em;
+    font-weight: 400;
+    
+
+}
+
+.R1{
+    display:grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap:20px;
+    padding:100px;
+}
+
+.R2{
+    display:grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left:80px;
+    padding:20px;
+}
+.icon{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+.R3{
+ 
+}
+
+.ntabs{
+   
+    height:50px;
+    border:none;
+    width:100px;
+    background-color: transparent;
+  }
+  
+.active-tab{
+      border-top:5px solid yellow;
+      color:gold;
+      font-size:larger;
+      font-weight: bolder;
+  }
+.submitContact{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:0px;
+    padding-right:10em;
+    gap:0px;
+}
+.submitContact>input{
+    height: 5em;
+    width:10em;
+    border-width:2px;
+    border: 1px solid #e9e9ea;
+    border-radius: 0!important;
+    box-sizing: border-box;
+    padding:2px;
+    height: calc(2em + 0.75rem + 5px);
+    color: #202027;
+    font-size: 1.4em;
+    font-weight: 400;
+    background-color: gold;
+
+}
