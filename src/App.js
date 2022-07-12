@@ -7,21 +7,22 @@ import Booking from "./pages/Booking"
 import Room from "./pages/Room"
 import Navigation from "./pages/Navigation"
 import Gallary from "./pages/Gallary"
+import SharedLayout from "./pages/SharedLayout"
 function App() {
   return (
   <BrowserRouter>
-    <Navigation/>
+    
     <Routes>
-      <Route path="/" element={<Home/>}>
+      <Route path="/" element={<SharedLayout/>}>
+        <Route index element={<Home/>}/>
         <Route path="/about" element={<About/>}/>
         <Route path="/booking" element={<Booking/>}/>
         <Route path="/contact" element={<Contact />}/>
-        <Route path="/gallary" element={<Gallary/>}/>
+        <Route path="/gallary" element={<Gallary/>}/>``
         <Route path="/room" element={<Room/>}/>
       </Route>
       <Route path="*" element={<Error/>}/>
     </Routes>
-    <footer>Footer</footer>
 
   </BrowserRouter>
   );

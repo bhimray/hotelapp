@@ -1,11 +1,16 @@
 import React from "react"
-import {Link, Outlet} from "react-router-dom"
+import Header from "../Components/header"
+import Container2 from "../Components/Container2";
+import Gallary from "../Components/Gallary";
+import Container4 from "../Components/Container4";
 
 function Home(){
     return(
         <>
-            <h1>Home</h1>
-            <Outlet/>
+            <Header/>
+            <Container2/>
+            <Gallary/>
+            <Container4/>
         </>
     );
 };

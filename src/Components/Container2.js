@@ -1,5 +1,4 @@
 import React from "react"
-import { ReactDOM } from "react"
 import {useState} from "react"
 import "./Container2.css"
 import "./tab.css"

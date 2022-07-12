@@ -1,5 +1,4 @@
 import React from "react"
-import { ReactDOM } from "react-dom"
 import {LoremIpsum} from "react-lorem-ipsum"
 import "./header.css"
 import image1 from "./images/bedRoom.jpg"

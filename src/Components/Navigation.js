@@ -1,73 +1,72 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import {useState} from "react"
+import {useState} from "react";
 
-import "./header.css"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faHotel} from '@fortawesome/free-solid-svg-icons'
+import "./header.css";
+import DeckIcon from '@mui/icons-material/Deck';
+var logo=DeckIcon;
 
-const logo = <FontAwesomeIcon icon={faHotel} />
-
-export default function Navigation(){
+function Navigation(){
     const [navBar, setNavBar] = useState(false)
     const changeBackground=()=>{
         if (window.scrollY>=200){
             setNavBar(true);
         }else{
-            setNavBar(false)
+            setNavBar(false);
         }
     };
-    window.addEventListener("scroll", changeBackground)
+    window.addEventListener("scroll", changeBackground);
 
     return(
         
+        
         <div className={navBar? "navBar active":"navBar"}>
-                <div >
-                    <NavLink to="/">
-                        <p className="logo">{logo}</p>
+            
+            <div >
+                <NavLink to="/">
+                    <div>
+                        
                         <p>Company name</p>
+                    </div>
+                </NavLink>
+            </div>
+            <ul className="hUl">
+                <li className="nav-item">
+                    <NavLink className="nav-link" to="/">
+                        Home
                     </NavLink>
-                </div>
-                <ul className="hUl">
-                    <li className="nav-item">
-                        <NavLink className="nav-link" to="/">
-                            Home
-                            
-                        </NavLink>
-                    </li>
-                    <li className="nav-item">
-                        <NavLink className="nav-link" to="/about-us">
-                            About Us
-                            <span className="sr-only">(current)</span>
-                        </NavLink>
-                    </li>
-                    <li className="nav-item">
-                        <NavLink className="nav-link" to="/rooms">
-                            Room Service
-                        </NavLink>
-                    </li>
-                    <li className="nav-item">
-                        <NavLink className="nav-link" to="/gallary">
-                            Gallary
-                        </NavLink>
-                    </li>
-                    <li className="nav-item">
-                        <NavLink className="nav-link" to="/online-booking">
-                            Online Booking
-                        </NavLink>
-                    </li>
-                    <li className="nav-item">
-                        <NavLink className="nav-link" to="/contact-us">
-                            Contact Us
-                        </NavLink>
-                    </li>
-                    <li className="nav-item">
-                        <NavLink className="nav-link" to="/blog">
-                            Blog
-                        </NavLink>
-                    </li>
-                </ul>
+                </li>
+                <li className="nav-item">
+                    <NavLink className="nav-link" to="/about">
+                        About Us
+                        <span className="sr-only">(current)</span>
+                    </NavLink>
+                </li>
+                <li className="nav-item">
+                    <NavLink className="nav-link" to="/room">
+                        Room Service
+                    </NavLink>
+                </li>
+                <li className="nav-item">
+                    <NavLink className="nav-link" to="/gallary">
+                        Gallary
+                    </NavLink>
+                </li>
+                <li className="nav-item">
+                    <NavLink className="nav-link" to="/booking">
+                        Online Booking
+                    </NavLink>
+                </li>
+                <li className="nav-item">
+                    <NavLink className="nav-link" to="/contact">
+                        Contact Us
+                    </NavLink>
+                </li>
+                
+            </ul>
         </div>
-    )
-}
+    );
+};
+
+export default Navigation;
 
