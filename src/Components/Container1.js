@@ -15,16 +15,48 @@ export default function Container1(){
             </div>
             <div className="cont1R2">
                 <h1>About Us</h1>
-                <p>We are dedicate to provide you the service
-                    that is utmost important for you. We are
-                    one of the oldest and higly loved hotel
-                    in Nepal.
-                </p>
+                <LoremIpsum p={2}>
             </div>
             <div className="cont1R3">
                 <h1>Explore more</h1>
                 <div className="attraction">
                     <div className="attraction1">
+                        <div>
+                            <img src={bedRoom} height="300px" width="300px" alt="Bed Room"></img>
+                        </div>
+                        <figcaption>
+                            <h1>Delicious food</h1>
+                            <p>
+                                Every food is cooked by Expert 
+                                gourmet.
+                            </p>
+                            <div className="figprice">
+                                <h2>Room Price: YYYY</h2>
+                                <button>
+                                    <a href="#">Know more</a>
+                                </button>
+                            </div>
+                        </figcaption>
+                    </div>
+                    <div className="attraction2">
+                        <div>
+                            <img src={bedRoom} height="300px" width="300px" alt="Bed Room"></img>
+                        </div>
+                        <figcaption>
+                            <h1>Delicious food</h1>
+                            <p>
+                                Every food is cooked by Expert 
+                                gourmet.
+                            </p>
+                            <div className="figprice">
+                                <h2>Room Price: YYYY</h2>
+                                <button>
+                                    <a href="#">Know more</a>
+                                </button>
+                            </div>
+                        </figcaption>
+                    </div>
+                    <div className="attraction2">
                         <div>
                             <img src={bedRoom} height="300px" width="300px" alt="Bed Room"></img>
                         </div>

@@ -1,5 +1,5 @@
 .container1{
-    background-color: darkmagenta;
+    background-color: #FFF1CB;
     margin:1px;
     padding:10px;
     display:flex;
@@ -16,9 +16,13 @@
 .cont1R1{
     border-left:10px solid bisque;
     border-right:10px solid bisque;
-    margin-left:450px;
+    margin-left:350px;
     width: max-content;
-    padding:30px;
+    padding:2em;
+    font-size: 20px;
+    font-family: cursive;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    box-shadow: 3px 3px red, -1em 0 0.4em olive;
 }
 
 .attraction{
@@ -29,6 +33,7 @@
     background-color: aqua;
     margin:20px;
     padding:20px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
     
 }
 
@@ -60,3 +65,4 @@
     text-decoration: none;
     
 }
+
