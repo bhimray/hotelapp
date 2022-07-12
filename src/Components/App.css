@@ -1,0 +1,10 @@
+.headerR1{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.hUl{
+  list-style:none; 
+}

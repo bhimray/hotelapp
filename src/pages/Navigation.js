@@ -7,7 +7,9 @@ function Navigation(){
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
             <Link to="/Booking">Booking</Link>
-            <Link to="/Contact">Contact</Link>
+            <Link to="/contact">Contact</Link>
+            <Link to="/room">Room</Link>
+            <Link to="/gallary">Gallary</Link>
         </>
     );
 };

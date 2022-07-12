@@ -1,0 +1,73 @@
+.Rooms{
+    padding:100px;
+}
+.roomContainer{
+    height:400px;
+    margin:50px;
+}
+
+.features{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.features>:nth-child(1){
+    text-align: justify;
+}
+
+.features>:nth-child(2){
+    list-style: none;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+}
+
+.featureList{
+    border-left: 5px double aquamarine;
+    margin-left:20px;
+}
+.featureList>li>:nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: aquamarine;
+    margin:10px;
+    position:relative;
+    top:10px;
+}
+
+.featureList>li>:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: aquamarine;
+    margin:10px;    
+}
+.featuresButton{
+    display:grid;
+}
+.submit{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+    padding-left:20rem;
+}
+.submit>input{
+    padding:0.5em;
+    padding-left:2.5em;
+    padding-right: 2.5em;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    border-width: 3px;
+    box-shadow: 10px 5px 5px red;
+
+}

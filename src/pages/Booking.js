@@ -1,8 +1,9 @@
 import React from "react"
+import Booking1 from "../Components/Booking"
 
 function Booking(){
     return(
-        <h1>Booking</h1>
+        <Booking1/>
     );
 };
 

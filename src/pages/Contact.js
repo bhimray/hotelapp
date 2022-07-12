@@ -1,8 +1,8 @@
 import React from "react"
-
+import Contact1 from "../Components/Contact"
 function Contact(){
     return(
-        <h1>Contact</h1>
+        <Contact1/>
     );
 };
 
