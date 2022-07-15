@@ -8,11 +8,10 @@ function Home(){
     return(
         <>
             <Navigation/>
-            <section>
-                <Outlet/>
-            </section>
+            <Outlet/>
             <Container4/>
             <Footer/>
+            
         </>
     );
 };

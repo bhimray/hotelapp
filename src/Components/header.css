@@ -3,11 +3,8 @@
     background-attachment: fixed;
     margin:0px;
     padding-bottom:20px;
+    width:100vh;
 }
-
-
-
-
 
 .hUl{
     list-style:none;
@@ -33,6 +30,7 @@
     background-color: rgba(137, 43, 226, 0.704);
     height:480px;
     outline: 5px blueviolet;
+    width:100vw;
 
 }
 .part1{
@@ -49,15 +47,15 @@
     z-index:5;
 }
 .part2{
-    width:60%;
-    z-index: 2;
+    width:30%;
+    
 }
 .part3{
-    width:50%;
+    width:30%;
     padding:20px;
     color:black;
     background-color: rgba(0, 255, 255, 0.753);
-    z-index: 4;
+    
 }
 
 .button2{
@@ -75,4 +73,40 @@
     border-radius: 5px;
     height: fit-content;
     margin-left: 5px;
+}
+
+@media only screen and (max-width:400px){
+    .part2,.part1{
+        display:none;
+    }
+
+    .headerR2{
+        display: grid;
+        padding-top:150px;
+    }
+    .part3{
+        width:100vw;
+        
+        
+    }
+    .headerR2{
+        display:flex;
+        padding:0px;
+        justify-content: space-between;
+        color:yellowgreen;
+        margin-bottom: 100px;
+        background-color: rgba(137, 43, 226, 0.704);
+        height:480px;
+        outline: 5px blueviolet;
+        width:100vw;
+    
+    }
+    .mainContainer{
+        background-image:url("./images/blueStreet.jpg");
+        background-attachment: fixed;
+        margin:0px;
+        padding-bottom:20px;
+        width:100vw;
+    }
+
 }

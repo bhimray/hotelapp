@@ -4,6 +4,7 @@ a{
 }
 .tabContainer{
     padding:50px;
+    width:100vw;
 }
 
 .cont2R1{ /*first row of the paragraph*/
@@ -19,20 +20,25 @@ a{
   height:50px;
   border:none;
   width:100px;
-  background-color: transparent;
+  background-color:rgba(255, 255, 0, 0.404);
+  color:rgb(17, 17, 13);
+    font-size:medium;
+    margin-left:2px;
+
 }
 
 .active-tabs{
     border-top:5px solid yellow;
-    color:gold;
+    border-bottom:5px solid yellow;
+    color:rgb(17, 17, 13);
     font-size:larger;
     font-weight: bolder;
+    
 }
 /*for tab*/
 .content {
     background: white;
     display: none;
-    padding-left:0em;
   }
 
 .active-content {
@@ -40,8 +46,44 @@ a{
     gap:20px;
     padding:20px;
     text-align: justify;
+    width:100vw;
   }
-.active-content:nth-child(2){
-    padding-left:0em;
-}
 
+
+@media only screen and (max-width:400px){
+    .tabContainer{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding:0px;
+        padding-bottom:40px;
+    }
+    .active-content {
+        display:grid;
+        text-align: justify;
+      }
+    .active-content>div{
+        padding:20px;
+    }
+      
+    img{
+        width:100vw;
+        height:100%;
+        object-fit:cover;
+    }
+    .bloc-tabs{ /*for different tabs to apply css in tab block row*/
+        display:flex;
+        justify-content: center;
+        width: 100vw;
+    }
+    
+    .tabs{
+        height:50px;
+        border:none;
+        width:4em;
+        background-color:rgba(255, 255, 0, 0.404);
+      }
+      
+
+}

@@ -1,11 +1,12 @@
 import React from "react"
 import "./Container4.css"
+import {NavLink} from "react-router-dom"
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faFaceAngry, faFaceFlushed, faFaceGrinBeam, faHotel, faLocationPin, faPhone} from '@fortawesome/free-solid-svg-icons'
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
+import FacebookIcon from '@mui/icons-material/Facebook';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import MailIcon from '@mui/icons-material/Mail';
+import LoremIpsum from "react-lorem-ipsum";
 
-const logo = <FontAwesomeIcon icon={faHotel} />
 
 export default function Container4(){
     return(
@@ -14,18 +15,17 @@ export default function Container4(){
             <div className="Cont4R2">
                 <div>
                     <h1>About Hotel</h1>
-                    <p>Descritpion of the Hotel
-                        is given over here.<br/> If you want to know more<br/>
-                        ..... <a href="#">Tap here</a>
-                    </p>
+                    <LoremIpsum p={1}/>
+                    <NavLink to="/about">Know more</NavLink>
+                    
                 </div>
                 <div>
-                    <h1>Quick Links...</h1>
+                    <h1>Quick Links</h1>
                     <ul>
-                        <li>showroom</li>
-                        <li>bedroom</li>
-                        <li>Dining Room</li>
-                        <li>Kitchen</li>
+                        <li>Booking</li>
+                        <li>Rooms</li>
+                        <li>Contact</li>
+                        <li>Service</li>
                     </ul>
                 </div>
                 <div>
@@ -33,30 +33,28 @@ export default function Container4(){
                     <ul>
                         <li>
                             <a href="mailto:abcd@gmail.com">
-                                <FontAwesomeIcon icon={faEnvelope} style={{position:"relative"}} /> abcd@gmail
+                                 abcd@gmail
                             </a>
                         </li>
                         <li>
                             <a href="callto: +977 9888888888">
-                                <FontAwesomeIcon icon={faPhone} style={{position:"relative"}} /> +977 98888888
+                                 +977 98888888
                             </a>
                         </li>
                         <li>
                             <a href="goto:kathmandu">
-                                <FontAwesomeIcon icon={faLocationPin} style={{position:"relative"}} /> Kathmandu
+                                 Kathmandu
                             </a>
                         </li>
                     </ul>
                 </div>
                 <div>
-                    <h1>Social
-                        <span style={{textDecorationColor:"red"}}> Media</span>
+                    <h1>Connect us
                     </h1>
                     <div className="mediaIcon">
-                        <FontAwesomeIcon icon={faFaceAngry} />
-                        <FontAwesomeIcon icon={faFaceFlushed} />
-                        <FontAwesomeIcon icon={faFaceGrinBeam} />
-
+                        <FacebookIcon/>
+                        <InstagramIcon/>
+                        <MailIcon />
                     </div>
                 
                 </div>

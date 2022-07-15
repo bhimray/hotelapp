@@ -15,9 +15,9 @@ export default function Container2(){
     };
     
     return(
-        <Parallax bgImage={imagebg} strength={200} className="tabContainer">
+        <Parallax bgImage={imagebg} className="tabContainer">
             <div className="cont2R1">
-                first
+                <h1 style={{color:"white"}}>Facilities and Features</h1>
             </div>
             <div className="bloc-tabs">
                 <button className={toggleState===1? "tabs active-tabs":"tabs"}
@@ -38,7 +38,7 @@ export default function Container2(){
             </div>
             <div className="content-tabs">
                 <div className={toggleState===1? "content active-content": "content"}>
-                    <img src={image} height="400px" width="500px" alt="This is picture"></img>
+                    <img src={image} height="400px" width="100vw" alt="This is picture"></img>
                     <div>
                         <h1>Tab1</h1>
                         <LoremIpsum p={2}/>
@@ -46,15 +46,15 @@ export default function Container2(){
                 </div>
 
                 <div className={toggleState===2? "content active-content": "content"}>
-                    <img src={image} height="400px" width="500px" alt="This is picture"></img>
+                    <img src={image} height="400px" width="100vw" alt="This is picture"></img>
                     <div>
-                        <h1>Tab2</h1>
+                        <h1>Tab3</h1>
                         <LoremIpsum p={2}/>
                     </div>
                 </div>
 
                 <div className={toggleState===3? "content active-content": "content"}>
-                    <img src={image} height="400px" width="500px" alt="This is picture"></img>
+                    <img src={image} height="400px" width="100vw" alt="This is picture"></img>
                     <div>
                         <h1>Tab3</h1>
                         <LoremIpsum p={2}/>
@@ -62,7 +62,7 @@ export default function Container2(){
                 </div>
 
                 <div className={toggleState===4? "content active-content": "content"}>
-                    <img src={image} height="400px" width="500px" alt="This is picture"></img>
+                    <img src={image} height="400px" width="100vw" alt="This is picture"></img>
                     <div>
                         <h1>Tab4</h1>
                         <LoremIpsum p={2}/>

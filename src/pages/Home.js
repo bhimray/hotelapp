@@ -11,7 +11,6 @@ function Home(){
             <Header/>
             <Container1/>
             <Container2/>
-            <Gallary/>
             
         </>
     );
