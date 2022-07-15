@@ -1,9 +1,11 @@
-.container1{
+.container1 {
     background-color: #FFF1CB;
-    margin:1px;
-    padding:10px;
-    display:flex;
-    flex-direction:column;
+    margin: 1px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .cont1R1,.cont1R2,.cont1R3>h1{
@@ -13,28 +15,36 @@
     align-items: center;
 }
 
-.cont1R1{
-    border-left:10px solid bisque;
-    border-right:10px solid bisque;
-    margin-left:350px;
-    width: max-content;
-    padding:2em;
+.cont1R3 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont1R1 {
+    border-left: 10px solid bisque;
+    border-right: 10px solid bisque;
+    /* margin-left: 350px; */
+    /* width: max-content; */
+    padding: 2em;
     font-size: 20px;
     font-family: cursive;
     text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
     box-shadow: 3px 3px red, -1em 0 0.4em olive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .attraction{
     display:flex;
 }
 
-.attraction1, .attraction2{
+.attraction1, .attraction2 {
     background-color: aqua;
-    margin:10px;
-    padding:15px;
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
-    
+    margin: 20px;
+    /* padding: 15px; */
+    box-shadow: 12px 12px 2px 1px rgb(0 0 255 / 20%);
 }
 
 .attraction1>figcaption>h1, .attraction2>figcaption>h1{
@@ -80,18 +90,18 @@
         padding-top: 40px;
         padding-bottom: 40px;
     }
-    .cont1R1{
-        border-left:10px solid bisque;
-        border-right:10px solid bisque;
-        margin-left:0px;
-        display:grid;
-        justify-content: center;
-        align-items: center;
-        margin:30px;
-        width: 60vw;
-        padding:1em;
-        font-size: 20px;
-        font-family: cursive;
+    .cont1R1 {
+        border-left: 10px solid bisque;
+        border-right: 10px solid bisque;
+        /* margin-left: 0px; */
+        /* display: grid; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* margin: 30px; */
+        /* width: 60vw; */
+        /* padding: 1em; */
+        /* font-size: 20px; */
+        /* font-family: cursive; */
         text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
         box-shadow: 3px 3px red, -1em 0 0.4em olive;
     }
@@ -100,28 +110,28 @@
         text-align: justify;
     }
 
-    .attraction{
-        display:flex;
+    .attraction {
+        display: flex;
         flex-direction: column;
-        width:100vw;
+        /* width: 100vw; */
     }
     .attraction2{
         display:none;
     }
        
-    .attraction1, .attraction2{
+    .attraction1, .attraction2 {
         background-color: aqua;
-        margin:0px;
-        padding:0px;
-        box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
-        width:80vw;
+        margin: 0px;
+        padding: 0px;
+        box-shadow: 12px 12px 2px 1px rgb(0 0 255 / 20%);
+        /* width: 80vw; */
         margin-bottom: 20px;
-        margin-left: 10px;
-        padding:10px;
+        /* margin-left: 10px; */
+        /* padding: 10px; */
     }
-    .attraction1>div>img{
-        width:80vw;
-        object-fit: cover;
+    .attraction1>div>img {
+        /* width: 38vw; */
+        /* object-fit: cover; */
     }
     
     .attraction1>figcaption>h1, .attraction2>figcaption>h1{
@@ -139,19 +149,19 @@
 
 }
 
-@media only screen and (min-width:600px) and (max-width:900px){
+@media only screen and (min-width:600px) and (max-width:989px){
     .cont1R1 {
         border-left: 10px solid bisque;
         border-right: 10px solid bisque;
-        margin-left: 11px;
-        width: auto;
+        /* margin-left: 11px; */
+        /* width: auto; */
     }
     .attraction2{
         display:none;
     }
     .attraction1>div>img {
-        width: 38vw;
-        object-fit: cover;
+        /* width: 38vw; */
+        /* object-fit: cover; */
     }
 
 }
@@ -171,6 +181,6 @@
         width: -webkit-fill-available;
     }
     .attraction1{
-        padding: 6px;
+        padding: 0px;
     }
 }

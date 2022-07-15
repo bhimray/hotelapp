@@ -55,7 +55,6 @@ a{
 .active-content {
     display:flex;
     gap:20px;
-    padding:20px;
     text-align: justify;
     width:80vw;
   }
