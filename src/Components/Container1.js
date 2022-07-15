@@ -38,7 +38,7 @@ export default function Container1(){
                             </div>
                         </figcaption>
                     </div>
-                    <div className="attraction2">
+                    <div className="attraction1">
                         <div>
                             <img src={bedRoom} height="300px" width="300px" alt="Bed Room"></img>
                         </div>
@@ -56,7 +56,7 @@ export default function Container1(){
                             </div>
                         </figcaption>
                     </div>
-                    <div className="attraction2">
+                    <div className="attraction1">
                         <div>
                             <img src={bedRoom} height="300px" width="300px" alt="Bed Room"></img>
                         </div>
@@ -74,7 +74,7 @@ export default function Container1(){
                             </div>
                         </figcaption>
                     </div>
-                    <div className="attraction2">
+                    <div className="attraction1">
                         <div>
                             <img src={bedRoom} height="300px" width="300px" alt="Bed Room"></img>
                         </div>

@@ -27,3 +27,28 @@
     height:40em;
     width:30em;
 }
+
+@media only screen and (max-width:500px){
+    .about{
+        display:flex;
+        flex-direction: column-reverse;
+    }
+    .aboutR1{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top:100px;
+    }
+    .aboutR3{
+        display:flex;
+        flex-direction: column;
+        background-color: aqua;
+        padding:0px;
+    }
+    .aboutR3>img{
+        height:30em;
+        width:100vw;
+    }
+
+}
