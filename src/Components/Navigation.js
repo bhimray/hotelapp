@@ -28,7 +28,7 @@ function Navigation(){
                     </div>
                 </NavLink>
             </div>
-            <nav >
+            <nav className="dropDown" >
                 <ul className="navList" id={togglestate?"hidden":""}>
                     <li className="nav-item">
                         <NavLink className="nav-link" to="/" onClick={()=>settogglestate(!togglestate)}>

@@ -8,10 +8,7 @@ export default function Home(){
 
   return(
     <div>
-      <Header/>
-      <Container1/>
-      <Container2/>
-      <Container3/>
+      
     </div>
   )
 

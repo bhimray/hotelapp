@@ -76,14 +76,15 @@
   }
 
   @media only screen and (max-width:500px){
-    .navBar{
-      display:block;
-      position:absolute;
-      top:0px;
-      left:0px;
-      padding:0px;
+    .navBar {
+      display: block;
+      /* position: absolute; */
+      solute: ;
+      top: 0px;
+      left: 0px;
+      padding: 0px;
       padding-left: 0px;
-    }
+  }
     .menu{
       position:sticky;
       display:flex;
@@ -120,7 +121,7 @@
       align-items: center;
     }
     #hidden{
-      position:fixed;
+      position:relative;
       height:100vw;
       width:100vw;
       top:-20px;
@@ -128,12 +129,17 @@
       display:grid;
       justify-content: center;
       align-items:center;
-      transition: 2s;
-      transform: translateX(-20%);
       gap:2px;
       z-index: 100;
       
     }
+
+    .dropDown {
+      position: absolute;
+      width: 100vw;
+      height: auto;
+      background-color: #0a1a52;
+  }
     .navBar.active{
       background-color:#8ac60b;
       position:sticky,fixed;

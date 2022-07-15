@@ -50,7 +50,7 @@ a{
   }
 
 
-@media only screen and (max-width:500px){
+@media only screen and (max-width:600px){
     .tabContainer{
         display:flex;
         flex-direction: column;
@@ -72,7 +72,7 @@ a{
         padding:20px;
     }
       
-    img{
+    .active-content>img{
         width:100vw;
         height:100%;
         object-fit:cover;
@@ -91,4 +91,50 @@ a{
       }
       
 
+}
+
+@media only screen and (min-width:600px) and (max-width:900px){
+    .active-content {
+        display: grid
+    }
+
+    
+    .tabContainer {
+        position: absolute;
+        left: 302px;
+        transform: translate3d(-50%, -43.9681px, 0px);
+        transform-style: preserve-3d;
+        backface-visibility: hidden;
+        width: 100vw;
+        filter: none;
+        height: 1184px;
+    }
+    .react-parallax-content{
+        padding: -8px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media only screen and (min-width:990px) and (max-width:1400px){
+    .active-content {
+        display: grid;
+        gap: 20px;
+        padding: 20px;
+        text-align: justify;
+        width: 80vw;
+    }
+
+    .tabContainer {
+        position: absolute;
+        left: 50%;
+        transform: translate3d(-50%, -8.66106px, 0px);
+        transform-style: preserve-3d;
+        backface-visibility: hidden;
+        height: auto;
+        width: 890.2px;
+        filter: none;
+    }
 }

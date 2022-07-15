@@ -210,11 +210,12 @@
 }
 }
 */
-@media only screen and (max-width:500px){
+@media only screen and (max-width:600px){
     .Rooms{
         display:grid;
         grid-template-columns: 1fr;
         padding-bottom:10px;
+        padding:55px;
         
     }
     .features{
@@ -260,7 +261,7 @@
         z-index: -9999;
         position:relative;
         left:-50px;
-        margin-top:100px;
+        margin-top:-42px;
     }
 
     .outerBox--Image img{
@@ -280,4 +281,28 @@
     }
     
     
+}
+
+@media only screen and (min-width:600px) and (max-width:1420px){
+    .outerBox{
+        margin: 0 -5px 1px 23px;
+    }
+    .outerBox--Image img {
+        width: 150%;
+        height: 1;
+        position: relative;
+        left: -22px;
+        top: -5px;
+        
+    }
+    .outerBox--Content-Box {
+        overflow: scroll;
+        background-color: #00c0ff;
+        padding: 10px;
+        position: relative;
+        height: 259px;
+        font-size: smaller;
+        width: 1000%;
+        top: 64px;
+    }
 }

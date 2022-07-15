@@ -16,59 +16,60 @@ export default function Container2(){
     
     return(
         <Parallax bgImage={imagebg} className="tabContainer">
-            <div className="cont2R1">
-                <h1 style={{color:"white"}}>Facilities and Features</h1>
-            </div>
-            <div className="bloc-tabs">
-                <button className={toggleState===1? "tabs active-tabs":"tabs"}
-                onClick={()=>toggleTab(1)}>Tab1
-                </button>
+            <div className="rect-parallax-conten" style={{"position":"relative"}}>
+                <div className="cont2R1">
+                    <h1 style={{color:"white"}}>Facilities and Features</h1>
+                </div>
+                <div className="bloc-tabs">
+                    <button className={toggleState===1? "tabs active-tabs":"tabs"}
+                    onClick={()=>toggleTab(1)}>Tab1
+                    </button>
 
-                <button className={toggleState===2? "tabs active-tabs":"tabs"}
-                onClick={()=>toggleTab(2)}>Tab2
-                </button>
+                    <button className={toggleState===2? "tabs active-tabs":"tabs"}
+                    onClick={()=>toggleTab(2)}>Tab2
+                    </button>
 
-                <button className={toggleState===3? "tabs active-tabs":"tabs"}
-                onClick={()=>toggleTab(3)}>Tab3
-                </button>
+                    <button className={toggleState===3? "tabs active-tabs":"tabs"}
+                    onClick={()=>toggleTab(3)}>Tab3
+                    </button>
 
-                <button className={toggleState===4? "tabs active-tabs":"tabs"}
-                onClick={()=>toggleTab(4)}>Tab4
-                </button> 
-            </div>
-            <div className="content-tabs">
-                <div className={toggleState===1? "content active-content": "content"}>
-                    <img src={image} height="400px" width="100%" alt="This is picture"></img>
-                    <div>
-                        <h1>Tab1</h1>
-                        <LoremIpsum p={2}/>
+                    <button className={toggleState===4? "tabs active-tabs":"tabs"}
+                    onClick={()=>toggleTab(4)}>Tab4
+                    </button> 
+                </div>
+                <div className="content-tabs">
+                    <div className={toggleState===1? "content active-content": "content"}>
+                        <img src={image} height="400px" width="100%" alt="This is picture"></img>
+                        <div>
+                            <h1>Tab1</h1>
+                            <LoremIpsum p={2}/>
+                        </div>
+                    </div>
+
+                    <div className={toggleState===2? "content active-content": "content"}>
+                        <img src={image} height="400px" width="100%" alt="This is picture"></img>
+                        <div>
+                            <h1>Tab3</h1>
+                            <LoremIpsum p={2}/>
+                        </div>
+                    </div>
+
+                    <div className={toggleState===3? "content active-content": "content"}>
+                        <img src={image} height="400px" width="100%" alt="This is picture"></img>
+                        <div>
+                            <h1>Tab3</h1>
+                            <LoremIpsum p={2}/>
+                        </div>
+                    </div>
+
+                    <div className={toggleState===4? "content active-content": "content"}>
+                        <img src={image} height="400px" width="100%" alt="This is picture"></img>
+                        <div>
+                            <h1>Tab4</h1>
+                            <LoremIpsum p={2}/>
+                        </div>
                     </div>
                 </div>
-
-                <div className={toggleState===2? "content active-content": "content"}>
-                    <img src={image} height="400px" width="100%" alt="This is picture"></img>
-                    <div>
-                        <h1>Tab3</h1>
-                        <LoremIpsum p={2}/>
-                    </div>
-                </div>
-
-                <div className={toggleState===3? "content active-content": "content"}>
-                    <img src={image} height="400px" width="100%" alt="This is picture"></img>
-                    <div>
-                        <h1>Tab3</h1>
-                        <LoremIpsum p={2}/>
-                    </div>
-                </div>
-
-                <div className={toggleState===4? "content active-content": "content"}>
-                    <img src={image} height="400px" width="100%" alt="This is picture"></img>
-                    <div>
-                        <h1>Tab4</h1>
-                        <LoremIpsum p={2}/>
-                    </div>
-                </div>
-
             </div>
         </Parallax>
     )
