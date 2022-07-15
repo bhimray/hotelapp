@@ -73,54 +73,72 @@
     }
   }
 
-  @media only screen and (max-width:400px){
+  @media only screen and (max-width:500px){
     .navBar{
       display:block;
       position:absolute;
       top:0px;
       left:0px;
-      
       padding:0px;
     }
     .menu{
-      position:fixed;
+      position:sticky;
       display:flex;
-      top:0px;
-      right:0px;
+      top:10px;
+      right:5px;
       justify-content: center;
       align-items:center;
       cursor:pointer;
       background-color: transparent;
       border-color:none;
-      z-index: 999999999999;
+      color:aliceblue;
+      z-index: 999999999;
       
     }
     .navList{
         display:none;
-        
-                
+                 
+    }
+    .menuPosition{
+      position:relative;
+      top:-50px;
+      left:10px;
     }
     
     .nav-item{
       margin:10px;
       padding:10px;
     }
+    .nav-link{
+      border:none;
+      display:grid;
+      justify-content: center;
+      align-items: center;
+    }
     #hidden{
-      display:block;
-      position:absolute;
-      left:0px;
-      right:0px;
-      top:0px;
-      height:100vh;
+      position:fixed;
+      height:100vw;
       width:100vw;
-      background-color: rgb(67, 67, 69);
-      transition:2s;
-      transform: translateY(0vh);
-      
+      top:-20px;
+      background-color: rgb(75, 75, 156);
       display:grid;
       justify-content: center;
       align-items:center;
+      transition: 2s;
+      transform: translateX(-20%);
       gap:2px;
+      z-index: 100;
       
     }
+    .navBar.active{
+      background-color:#8ac60b;
+      position:sticky,fixed;
+      top:0;
+      right:0;
+      left:0;
+      z-index: 9999999999999999999;
+      padding-left:none;
+      padding-right:none;
+      font-size: 1em;
+  }
   }

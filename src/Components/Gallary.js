@@ -122,7 +122,7 @@ const Photos=()=>{
         <div className='gallaryCont'>
           <div className='gallaryhead'>
             <h1>Gallary</h1>
-            <span>The best and best moment of life</span>
+            <p>The best and best moment of life</p>
           </div>
           
             <div className={model? "model open": "model"}>

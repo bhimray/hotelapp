@@ -31,32 +31,32 @@ function Navigation(){
             <nav >
                 <ul className="navList" id={togglestate?"hidden":""}>
                     <li className="nav-item">
-                        <NavLink className="nav-link" to="/">
+                        <NavLink className="nav-link" to="/" onClick={()=>settogglestate(!togglestate)}>
                             Home
                         </NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink className="nav-link" to="/about">
+                        <NavLink className="nav-link" to="/about" onClick={()=>settogglestate(!togglestate)}>
                             About
                         </NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink className="nav-link" to="/room">
+                        <NavLink className="nav-link" to="/room" onClick={()=>settogglestate(!togglestate)}>
                             Room
                         </NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink className="nav-link" to="/gallary">
+                        <NavLink className="nav-link" to="/gallary" onClick={()=>settogglestate(!togglestate)}>
                             Gallary
                         </NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink className="nav-link" to="/booking">
+                        <NavLink className="nav-link" to="/booking" onClick={()=>settogglestate(!togglestate)}>
                             Booking
                         </NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink className="nav-link" to="/contact">
+                        <NavLink className="nav-link" to="/contact" onClick={()=>settogglestate(!togglestate)}>
                             Contact
                         </NavLink>
                     </li>
@@ -65,7 +65,7 @@ function Navigation(){
                     </button>
                     
                 </ul>
-                <button className="menu" onClick={()=>settogglestate(!togglestate)}>
+                <button className="menu menuPosition" onClick={()=>settogglestate(!togglestate)}>
                     <MenuIcon/>
                 </button>
             </nav>
