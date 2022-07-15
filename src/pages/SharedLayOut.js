@@ -9,7 +9,7 @@ function Home(){
         <>
             <Navigation/>
             <Outlet/>
-            <Container4/>
+            
             <Footer/>
             
         </>

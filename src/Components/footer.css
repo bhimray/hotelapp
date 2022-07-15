@@ -22,6 +22,207 @@
 
 }
 
+
+/*
+
+html {
+    font-size: 100%;
+    line-height: 1.5em;
+    -moz-osx-font-smoothing: grayscale;
+    /* -webkit-font-smoothing: antialiased; *//*
+    -webkit-text-stroke: 0.45px rgba(0,0,0,0.1);
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+.pageFooter {
+    background-color: #e7e7e7;
+    overflow: auto;
+    padding: 30px 20px;
+    position: relative;
+}
+
+
+.pageFooter--left-logo {
+    color: #111;
+    object-position: 0 0;
+    object-fit: contain;
+    border-bottom: none;
+    display: block;
+    height: 30px;
+    width: 179px;
+}
+
+img {
+    border-style: none;
+    display: block;
+    text-indent: -9999px;
+    vertical-align: bottom;
+    max-width: 100%;
+}
+
+.pageFooter--left-social {
+    float: left;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 0;
+    width: 100%;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.pageFooter--left-social li {
+    float: left;
+    height: 25px;
+    margin-right: 10px;
+    width: 25px;
+}
+
+.pageFooter--right {
+    float: left;
+}
+
+.pageFooter--right-topLine {
+    position: absolute;
+    right: 20px;
+    top: 30px;
+}
+
+@media (min-width: 768px)
+.pageFooter--right-topLine {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 14px;
+    position: static;
+    text-align: right;
+}
+
+.pageFooter--right-topLine .return {
+    color: #111;
+    font-family: "Source Sans Pro Semibold",system-ui;
+    font-size: 12px;
+    line-height: 1;
+    letter-spacing: .5px;
+    margin-bottom: 13px;
+    text-transform: uppercase;
+    width: 38px;
+}
+
+.pageFooter--right-links ul {
+    float: left;
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+}
+
+.pageFooter--right-links .title {
+    color: #111;
+    font-family: "Source Sans Pro Bold",system-ui;
+    font-size: 12px;
+    line-height: 1;
+    letter-spacing: .5px;
+    margin-bottom: 4px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.pageFooter--right-links .section {
+    column-count: 2;
+    margin: 11px 0 18px 0;
+}
+
+.pageFooter--right-links ul {
+    float: left;
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+}
+
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.pageFooter--right-topLine .return::after {
+    background-image: url(data:image/svg+xml;charset=utf-8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 17"%3E%3Cg stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"%3E%3Cg transform="translate(-892.000000, -815.000000)" fill="%23111" fill-rule="nonzero"%3E%3Cg transform="translate(892.000000, 815.000000)"%3E%3Cpath d="M29.4292309,0.416619534 C30.0407169,-0.1615984 31.0051625,-0.134629287 31.5833805,0.476856732 C32.1615984,1.08834275 32.1346293,2.05278836 31.5231433,2.6310063 L17.0198018,16.345289 C16.4315528,16.901534 15.5110234,16.9006719 14.9238174,16.343326 L0.474784266,2.62904336 C-0.135617655,2.0496811 -0.160780271,1.08518666 0.418581992,0.474784746 C0.997944254,-0.135617173 1.96243869,-0.160779788 2.57284061,0.418582472 L15.9748114,13.1390471 L29.4292309,0.416619534 Z" transform="translate(16.000000, 8.380952) scale(1, -1) translate(-16.000000, -8.380952) "%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: '';
+    display: inline-block;
+    height: 5px;
+    width: 10px;
+    margin-left: 4px;
+    position: relative;
+    top: -2px;
+}
+.pageSign{
+    color: #111;
+    font-family: "Source Sans Pro Regular",system-ui;
+    font-size: 14px;
+    line-height: 1.28571;
+    border-bottom: 1px solid #ccc;
+    font-weight: 400;
+}
+
+.containerDailyPromo {
+    width: 300px;
+    height: 270px;
+    background: #FFF url(https://s.hdnux.com/photos/01/13/03/66/19676586/4/rawImage.png)no-repeat;
+    background-size: 100%;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.featuredStory .unevenFeature {
+    background: url(/img/core/halftone-pattern-02.svg);
+    background-size: 32px;
+    margin: 0 -20px 30px -20px;
+    overflow: visible;
+    padding: 20px;
+}
+
+@media (min-width: 768px)
+.pageFooter--right-links .section {
+    box-sizing: border-box;
+    column-count: 1;
+    margin-bottom: 0;
+    padding-right: 10px;
+}
+
+@media (min-width: 768px)
+.pageFooter--right-links .wrapper {
+    display: flex;
+}
+@media (min-width: 768px)
+.pageFooter--right {
+    flex: 1.5 1 0;
+}
+
+@media (min-width: 768px)
+.pageFooter--right-topLine {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 14px;
+    position: static;
+    text-align: right;
+}
+
+@media (min-width: 768px)
+.pageFooter--right-links .wrapper {
+    display: flex;
+}
+
+*/
+
 @media only screen and (max-width:500px){
 
     .footer{
