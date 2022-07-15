@@ -34,7 +34,11 @@
 }
 #room{
     height:40px;
-    width:max-content;
+    width: 295px;
+    border-width:2px;
+    border-color: rgb(9, 17, 182);
+    box-sizing: border-box;
+    border-radius: 7px;
 }
 
 .formH11>input{

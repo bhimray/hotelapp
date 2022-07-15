@@ -15,8 +15,8 @@ export default function Container2(){
     };
     
     return(
-        <Parallax bgImage={imagebg} className="tabContainer">
-            <div className="rect-parallax-conten" style={{"position":"relative"}}>
+        <div className="tabContainer">
+            <div className="rect-parallax-content" style={{"position":"relative"}}>
                 <div className="cont2R1">
                     <h1 style={{color:"white"}}>Facilities and Features</h1>
                 </div>
@@ -71,6 +71,6 @@ export default function Container2(){
                     </div>
                 </div>
             </div>
-        </Parallax>
+        </div>
     )
 }
