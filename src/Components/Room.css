@@ -1,5 +1,9 @@
 .Rooms{
-    padding:100px;
+    padding:50px;
+    
+}
+.bg-color{
+    background-color: rgba(255, 228, 196, 0.16);
     
 }
 .roomContainer{
@@ -12,6 +16,7 @@
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;
+    
 }
 
 .features>:nth-child(1){
@@ -30,6 +35,7 @@
 .featureList{
     border-left: 5px double aquamarine;
     margin-left:20px;
+    background-color: rgba(255, 228, 196, 0.445);
 }
 .featureList>li>:nth-child(1){
     display: flex;
@@ -82,17 +88,31 @@
 }
 /* my code for box  */
 
-.outerBox{
+
+.outerBox {
     background: url("./images/halftone-pattern.svg");
-    background-size: 60px;
-    margin: 0 -20px 30px -20px;
+    background-size: 30px;
+    margin: 0 101px 1px 23px;
     overflow: visible;
-    padding: 20px;
+    padding: 90px;
+    z-index: -9999;
 }
-.outerBox--Image Img{
-    width:50%;
+.outerBox--Image img{
+    width:100%;
+    height: 90%;
+    position:relative;
+    left:40px;
+    top:-20px;
+}
+.outerBox--Content-Box{
+    background-color:#00c0ff ;
+    padding:83px;
+}
+.outerBox--Wrapper{
+    display:flex;
 }
 
+/*
 .featuredStory .unevenFeature {
     background: url("./images/halftone-pattern.svg");
     background-size: 60px;
@@ -134,11 +154,11 @@
     display:flex;
     
 }
-
+*/
 .fade-in {
     animation: fade-in 1s ease;
 }
-
+/*
 @media (min-width: 768px){
     .featuredStory .featuredStory--wrapper .featuredStory--image {
         flex-direction: row;
@@ -189,13 +209,11 @@
     padding: 0;
 }
 }
-
+*/
 @media only screen and (max-width:500px){
     .Rooms{
         display:grid;
         grid-template-columns: 1fr;
-        background-color: aqua;
-        margin-top: 50px;
         padding-bottom:10px;
         
     }
@@ -208,7 +226,7 @@
         padding:20px;
         width:90vw;
         position:relative;
-        left:-100px;
+        left:-50px;
         
     }
 
@@ -231,6 +249,34 @@
         align-items: center;
         margin:10px;
         padding-left:0rem;
+    }
+
+    .outerBox{
+        background: url("./images/halftone-pattern.svg");
+        background-size: 30px;
+        margin:0px;
+        overflow: visible;
+        padding: 20px;
+        z-index: -9999;
+        position:relative;
+        left:-50px;
+        margin-top:100px;
+    }
+
+    .outerBox--Image img{
+        width:90vw;
+        height: 90%;
+        position:relative;
+        left:0px;
+        top:0px;
+    }
+    .outerBox--Content-Box{
+        background-color:#00c0ff ;
+        padding:20px;
+    }
+    .outerBox--Wrapper{
+        display:flex;
+        flex-direction: column;
     }
     
     

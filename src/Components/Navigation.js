@@ -7,11 +7,11 @@ import MenuIcon from '@mui/icons-material/Menu';
 import "./Navigation.css";
 import CycloneSharpIcon from '@mui/icons-material/CycloneSharp';
 function Navigation(){
-    const [navBar, setNavBar] = useState(1)
+    const [navBar, setNavBar] = useState(false)
     const changeBackground=()=>{
-        if (window.scrollY>=200){
+        if (window.scrollY>=100){
             setNavBar(true);
-        }else{
+        }else if (window.scrollY<=100){
             setNavBar(false);
         }
     };

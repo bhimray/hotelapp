@@ -46,7 +46,7 @@ a{
     gap:20px;
     padding:20px;
     text-align: justify;
-    width:100vw;
+    width:80vw;
   }
 
 
@@ -58,11 +58,16 @@ a{
         align-items: center;
         padding:0px;
         padding-bottom:40px;
+        width:100vw;
     }
     .active-content {
         display:grid;
         text-align: justify;
+        width:100vw;
       }
+    .active-content img{
+        width:100vw;
+    }
     .active-content>div{
         padding:20px;
     }

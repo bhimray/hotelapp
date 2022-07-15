@@ -12,33 +12,35 @@
     padding-right: 0px;
     font-size: 1.4em;
     width:100vw;
+    z-index: 9999999999999999999999999999999999999999999999999;
 }
+.navBar .active{
+  background-color:#8ac60b;
+  position:sticky;
+  top:0;
+  right:0;
+  left:0;
+  z-index: 99999999999999999999999999999999999999999999999999;
+}
+
 .symbol{
     font-size: 20px;
     display:flex;
     justify-content: center;
     align-items: center;
     gap:10px;
+    padding-left: 20px;
     color:white;
     animation: rotate 2s duration timing-function delay iteration-count direction fill-mode;
 }
 
-.navBar.active{
-    background-color:#8ac60b;
-    position:sticky,fixed;
-    top:0;
-    right:0;
-    left:0;
-    z-index: 999999;
-    padding-left:20px;
-    padding-right:20px;
-    font-size: 1.4em;
-}
+
 
 .navList{
   display:flex;
   background-color:transparent;
   text-transform: uppercase;
+  padding-right: 50px;
 }
 .nav-item{
   padding:5px;
@@ -80,6 +82,7 @@
       top:0px;
       left:0px;
       padding:0px;
+      padding-left: 0px;
     }
     .menu{
       position:sticky;
@@ -97,6 +100,7 @@
     }
     .navList{
         display:none;
+        padding-right: 0px;
                  
     }
     .menuPosition{
@@ -140,5 +144,8 @@
       padding-left:none;
       padding-right:none;
       font-size: 1em;
+  }
+  .symbol{
+    padding-left: 0px;
   }
   }

@@ -33,8 +33,8 @@ export default function header(){
                      Mauris sed augue odio sem augue sem tempus urna orci.<br/>
                       Faucibus tristique nulla faucibus scelerisque auctor varius dapibus. 
                      </p>
-                     <a href="#"><button href="#" className="button1">view more</button></a>
-                     <a href="#"><button href="#" className="button2">Online Booking</button></a>                    
+                     <a href="#"><button href="#" className="button1">View more</button></a>
+                     <a href="#"><button href="#" className="button2">Book Now</button></a>                    
                 </div>
             </div>
         </div>

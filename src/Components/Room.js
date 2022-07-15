@@ -14,13 +14,13 @@ import RssFeedIcon from '@mui/icons-material/RssFeedTwoTone';
 
 function Room(){
     return(        
-        <div className="Rooms">
+        <div className="Rooms bg-color">
             <div className="outerBox">
-                <section className="outerBox--wrapper unevenOuterBox"> 
+                <section className="outerBox--Wrapper unevenOuterBox"> 
                     <div className="outerBox--Image fade-in">
                         <img src={bedRoom}></img>
                     </div>
-                    <div className="outerBox--content-box">
+                    <div className="outerBox--Content-Box">
                         <h1>Live here like you never does</h1>
                         <LoremIpsum p={1}/>
                     </div>

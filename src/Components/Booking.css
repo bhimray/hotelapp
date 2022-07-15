@@ -32,10 +32,11 @@
     flex-direction: column;
     margin:5px;
 }
-.radio{
-    font-size: 10px;
-    
+#room{
+    height:40px;
+    width:max-content;
 }
+
 .formH11>input{
     height: 40px;
     width:300px;
