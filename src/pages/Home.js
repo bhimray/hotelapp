@@ -8,7 +8,10 @@ import Container1 from "../Components/Container1"
 function Home(){
     return(
         <>
-            <p>Testing Footer Design</p>
+            <Header/>
+            <Container1/>
+            <Container2/>
+            <Gallary/>
             
         </>
     );

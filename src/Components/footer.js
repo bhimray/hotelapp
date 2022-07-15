@@ -12,7 +12,7 @@ export default function Container5(){
     return(
         <footer className="pageFooter">
             <div className="lock">
-                <div className="pageFooter-wrapper">
+                <div className="pageFooter--wrapper">
                     <div className="pageFooter--left">
                         <a className="pageFooter--left-logo" href="/">
                             <img src="https://www.chron.com/img/logos/black/logo.svg">
@@ -27,13 +27,13 @@ export default function Container5(){
                         </ul>
                     </div>
                     <div className="pageFooter--right">
-                        <div className="pageFooter-top-line">
-                            <a href="#content"className="return">
-                                <span class="full">Return to</span>
-                                "Top"
+                        <div className="pageFooter--right-topLine">
+                            <a href="/"className="return">
+                                <span class="full">Return to </span>
+                                 Top
                             </a>
                         </div>
-                        <div className="pageFooter-right-link">
+                        <div className="pageFooter--right-links">
                             <div>
                                 <ul className="wrapper" role="presentation">
                                     <li>
@@ -101,6 +101,10 @@ export default function Container5(){
                         </div>
                     </div>
 
+                </div>
+                <div className="pageFooter--branding-log">
+                    <DeckIcon/>
+                    <span className="pageFooter--branding-copyright"> @ copyright to DNC</span>
                 </div>
             </div>
         </footer>

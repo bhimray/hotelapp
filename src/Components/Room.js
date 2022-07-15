@@ -1,7 +1,7 @@
 import React from "react"
 import "./Room.css"
 import "./tab.css"
-import image from "./images/maldivesTravel.jpg"
+import bedRoom from "./images/bedRoom.jpg"
 import imagebg from "./images/weddingDecoration.jpg"
 import { Parallax } from "react-parallax"
 import LoremIpsum from "react-lorem-ipsum"
@@ -15,6 +15,17 @@ import RssFeedIcon from '@mui/icons-material/RssFeedTwoTone';
 function Room(){
     return(        
         <div className="Rooms">
+            <div className="outerBox">
+                <section className="outerBox--wrapper unevenOuterBox"> 
+                    <div className="outerBox--Image fade-in">
+                        <img src={bedRoom}></img>
+                    </div>
+                    <div className="outerBox--content-box">
+                        <h1>Live here like you never does</h1>
+                        <LoremIpsum p={1}/>
+                    </div>
+                </section>
+            </div>
             <div className="features">
                 <div className="featuresButton">
                     <LoremIpsum p={1}></LoremIpsum>

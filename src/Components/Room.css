@@ -71,6 +71,125 @@
 
 }
 
+
+.pageSign{
+    color: #111;
+    font-family: "Source Sans Pro Regular",system-ui;
+    font-size: 14px;
+    line-height: 1.28571;
+    border-bottom: 1px solid #ccc;
+    font-weight: 400;
+}
+/* my code for box  */
+
+.outerBox{
+    background: url("./images/halftone-pattern.svg");
+    background-size: 60px;
+    margin: 0 -20px 30px -20px;
+    overflow: visible;
+    padding: 20px;
+}
+.outerBox--Image Img{
+    width:50%;
+}
+
+.featuredStory .unevenFeature {
+    background: url("./images/halftone-pattern.svg");
+    background-size: 60px;
+    margin: 0 -20px 30px -20px;
+    overflow: visible;
+    padding: 20px;
+}
+.featuredStory .featuredStory--wrapper {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin-bottom: 36px;
+    color: #fff;
+}
+
+.featuredStory--image {
+    height: 219px;
+    position:relative;
+}
+.featuredStory .featuredStory--wrapper img, .featuredStory .featuredStory--wrapper video {
+    height: 100%;
+    object-fit: cover;
+    width: 70%;
+}
+.featuredStory--content-box{
+    
+}
+.featuredStory .featuredStory--wrapper .featuredStory--content-box {
+    background-color: #111;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    padding: 0 20px 30px 20px;
+    position: relative;
+}
+
+.featuredStory .unevenFeature .featuredStory--content-box {
+    background-color: #00c0ff;
+    display:flex;
+    
+}
+
+.fade-in {
+    animation: fade-in 1s ease;
+}
+
+@media (min-width: 768px){
+    .featuredStory .featuredStory--wrapper .featuredStory--image {
+        flex-direction: row;
+        height: auto;
+        width: 50%;
+        margin-right: -10px;
+        margin-top: -22px;
+        }
+
+    .featuredStory .unevenFeature .featuredStory--image {
+        margin-right: -10px; 
+        margin-top: -22px; 
+        z-index:1;
+    }
+    .featuredStory .unevenFeature .featuredStory--content-box {
+        margin-bottom: -22px;
+        margin-left: -10px;
+        padding-left: 0px;
+        
+    }
+    .featuredStory .featuredStory--wrapper .featuredStory--content-box {
+        align-items: center;
+        display: flex;
+        padding: 30px;
+        height:50px;
+        
+    }
+    .featuredStory .featuredStory--wrapper {
+        flex-direction: row;
+    }
+    .featuredStory .unevenFeature .featuredStory--image {
+        margin-right: -10px;
+        margin-top: -22px;
+    }
+    .featuredStory .featuredStory--wrapper .featuredStory--image {
+        height: auto;
+        width: 50%;
+    }
+}
+
+
+@media (min-width: 1048px){
+.featuredStory .unevenFeature {
+    border-color: transparent;
+    border-style: solid;
+    border-width: 72px 50px;
+    margin: 0 0 60px 0;
+    padding: 0;
+}
+}
+
 @media only screen and (max-width:500px){
     .Rooms{
         display:grid;
