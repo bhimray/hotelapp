@@ -32,6 +32,10 @@
     flex-direction: column;
     margin:5px;
 }
+.radio{
+    font-size: 10px;
+    
+}
 .formH11>input{
     height: 40px;
     width:300px;
@@ -73,4 +77,41 @@
     border-width: 3px;
     box-shadow: 10px 5px 5px red;
 
+}
+
+@media only screen and (max-width:500px){
+    .formBack{
+        margin-top:150px;
+        background-color: gold;
+        padding-top:0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right:0px;
+    }
+    .form{
+        margin:10px;
+        padding:5px;
+        background-color: whitesmoke;
+        border-radius: 0px;
+        font-family:'Segoe UI';
+    }
+    .container{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left:0em;
+        font-size:1rem;
+    }
+    .formH11{
+        display:flex;
+        margin:10px;   
+    }
+
+    .description>input{
+        height:150px;
+        width:80vw;
+        padding:10px;
+
+    }
 }

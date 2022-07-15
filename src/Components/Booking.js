@@ -56,12 +56,12 @@ function Booking(){
                             <input type="number" id="name" placeholder="for example: 2"></input>
                         </div>
 
-                        <div className="formH11">
-                            <label for="name">Room</label>
-                            <select type="text" id="name" placeholder="for example:A/C or Non-A/C">
-                                <option value="A/C">A/C Room</option>
-                                <option value="Non-A/C">Non-A/C Room</option>
-                            </select>
+                        <div className="formH11 radio">
+                            <p>Types of Room</p>
+                            <input type="radio" id="ac" name="room" value="CSS"/>
+                            <label for="ac">A/C</label><br/>
+                            <input type="radio" id="nac" name="room" value="JavaScript"/>
+                            <label for="nac">Non-A/C</label>
                         </div>
 
                         <div className="formH11">
