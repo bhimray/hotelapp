@@ -21,7 +21,75 @@
     font-size: 20px;
 
 }
+/*footer code start from here of CHRON footerI*/
+.pageFooter {
+    background-color: #e7e7e7;
+    overflow: auto;
+    padding: 30px 20px;
+    position: relative;
+}
 
+a {
+    background-color: transparent;
+    text-decoration: none;
+    -webkit-text-decoration-skip: objects;
+}
+.pageFooter--left-logo {
+    color: #111;
+    object-position: 0 0;
+    object-fit: contain;
+    border-bottom: none;
+    display: block;
+    height: 30px;
+    width: 179px;
+}
+
+img {
+    border-style: none;
+    display: block;
+    text-indent: -9999px;
+    max-width: 100%;
+}
+.pageFooter--left-social {
+    float: left;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 0;
+    width: 100%;
+}
+
+ul {
+    display: block;
+    /*list-style-type: disc;*/
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.pageFooter--left-social li {
+    float: left;
+    height: 25px;
+    margin-right: 10px;
+    width: 25px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.pageFooter--left-social .facebook a {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+}
+
+.pageFooter--right {
+    float: left;
+}
 
 /*
 
@@ -219,6 +287,27 @@ li {
 @media (min-width: 768px)
 .pageFooter--right-links .wrapper {
     display: flex;
+}
+@media (min-width: 768px)
+.pageFooter--wrapper {
+    display: flex;
+}
+
+@media (min-width: 768px)
+.pageFooter--left {
+    flex: 1 1 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0px;
+}
+@media (min-width: 1320px)
+.lock {
+    margin-right: auto !important;
+    margin-left: auto !important;
+    position: relative !important;
+    padding-right: 60px !important;
+    padding-left: 60px !important;
+    width: 1200px !important;
 }
 
 */

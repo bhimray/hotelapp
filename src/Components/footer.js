@@ -2,11 +2,9 @@ import React from "react"
 import { ReactDOM } from "react"
 import { NavLink } from "react-router-dom"
 import "./footer.css"
-import DeckIcon from '@mui/icons-material/Facebook';
-import DeckIcon from '@mui/icons-material/Twitter';
-import DeckIcon from '@mui/icons-material/LinkedIn';
 import DeckIcon from '@mui/icons-material/Deck';
-import DeckIcon from '@mui/icons-material/Deck';
+import Facebook from '@mui/icons-material/Facebook';
+import Instagram from '@mui/icons-material/Instagram';
 import Twitter from "@mui/icons-material/Twitter";
 import LinkedIn from "@mui/icons-material/LinkedIn";
 
@@ -16,15 +14,15 @@ export default function Container5(){
             <div className="lock">
                 <div className="pageFooter-wrapper">
                     <div className="pageFooter--left">
-                        <a className="logo" href="/">
+                        <a className="pageFooter--left-logo" href="/">
                             <img src="https://www.chron.com/img/logos/black/logo.svg">
                             </img>
                         </a>
-                        <ul className="pageFooter-left-social">
-                            <li href="facebook"><Facebook/></li>
-                            <li href="twitter"><Twitter/></li>
-                            <li href="instagram"><Instagram/></li>
-                            <li href="linkedin"><LinkedIn/></li>
+                        <ul className="pageFooter--left-social">
+                            <li className="facebook"><Facebook/></li>
+                            <li className="twitter"><Twitter/></li>
+                            <li className="instagram"><Instagram/></li>
+                            <li className="linkedin"><LinkedIn/></li>
                             
                         </ul>
                     </div>
