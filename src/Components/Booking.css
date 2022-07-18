@@ -25,6 +25,8 @@
     grid-template-columns: 50% 40%;
     margin-left:8em;
     font-size:1rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .formH11{
@@ -32,18 +34,17 @@
     flex-direction: column;
     margin:5px;
 }
-#room{
-    height:40px;
-    width: 295px;
-    border-width:2px;
+#room {
+    height: 40px;
+    /* width: 295px; */
+    border-width: 2px;
     border-color: rgb(9, 17, 182);
     box-sizing: border-box;
     border-radius: 7px;
 }
-
 .formH11>input{
     height: 40px;
-    width:300px;
+    width: 100%;
     border-width:2px;
     border-color: rgb(9, 17, 182);
     box-sizing: border-box;
@@ -109,11 +110,11 @@
         margin-left:0em;
         font-size:1rem;
     }
-    .formH11{
-        display:flex;
-        margin:10px;   
+    .formH11 {
+        display: flex;
+        margin: 10px;
+        width: 100%;
     }
-
     .description>input{
         height:150px;
         width:80vw;
@@ -121,8 +122,17 @@
 
     }
 }
+@media only screen and (min-width:600px) and (max-width:989px){
+    .formBack{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .container{
+        margin-left: 0em;
+    }
+}
 
-@media only screen and (min-width:700px) and (max-width:1400px){
+@media only screen and (min-width:900px) and (max-width:1400px){
     .formBack {
         background-color: gold;
         margin: 0px;
