@@ -58,7 +58,7 @@
         margin-top: 50px;
     }
     .gallaryhead{
-        margin-top:80px;
+           /* margin-top: 80px;*/
         padding:10px;
         display:flex;
         flex-direction: column;
