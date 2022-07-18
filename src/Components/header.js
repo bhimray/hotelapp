@@ -24,9 +24,11 @@ export default function header(){
                      Odio duis magnis nibh ridiculus; nascetur taciti. 
                      Mauris sed augue odio sem augue sem tempus urna orci.<br/>
                       Faucibus tristique nulla faucibus scelerisque auctor varius dapibus. 
-                     </p>
-                     <a href="#"><button href="#" className="button1">View more</button></a>
-                     <a href="#"><button href="#" className="button2">Book Now</button></a>                    
+                    </p>
+                    <div className="buttonHeader">
+                        <a href="/room"><button className="button1">View more</button></a>
+                        <a href="/booking"><button className="button2">Book Now</button></a> 
+                     </div>                   
                 </div>
             </div>
         </div>

@@ -39,15 +39,15 @@ export default function Container2(){
                 </div>
                 <div className="content-tabs">
                     <div className={toggleState===1? "content active-content": "content"}>
-                        <img src={image} height="400px" width="100%" alt="This is picture"></img>
-                        <div>
+                        <img src={image}  alt="This is picture"></img>
+                        <div className="activeParagraph">
                             <h1>Tab1</h1>
                             <LoremIpsum p={2}/>
                         </div>
                     </div>
 
                     <div className={toggleState===2? "content active-content": "content"}>
-                        <img src={image} height="400px" width="100%" alt="This is picture"></img>
+                        <img src={image}  alt="This is picture"></img>
                         <div>
                             <h1>Tab3</h1>
                             <LoremIpsum p={2}/>
@@ -55,7 +55,7 @@ export default function Container2(){
                     </div>
 
                     <div className={toggleState===3? "content active-content": "content"}>
-                        <img src={image} height="400px" width="100%" alt="This is picture"></img>
+                        <img src={image}  alt="This is picture"></img>
                         <div>
                             <h1>Tab3</h1>
                             <LoremIpsum p={2}/>
@@ -63,7 +63,7 @@ export default function Container2(){
                     </div>
 
                     <div className={toggleState===4? "content active-content": "content"}>
-                        <img src={image} height="400px" width="100%" alt="This is picture"></img>
+                        <img src={image}  alt="This is picture"></img>
                         <div>
                             <h1>Tab4</h1>
                             <LoremIpsum p={2}/>

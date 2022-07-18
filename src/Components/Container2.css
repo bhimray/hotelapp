@@ -58,6 +58,10 @@ a{
     text-align: justify;
     width:80vw;
   }
+.active-content img{
+    width:50%;
+    height:auto;
+}
 
 
 @media only screen and (max-width:600px){
@@ -106,7 +110,10 @@ a{
     .active-content {
         display: grid
     }
-
+    .active-content img{
+        width:100%;
+        height:auto;
+    }
     
     .tabContainer {
         /* position: absolute; */
@@ -145,5 +152,9 @@ a{
         /* height: auto; */
         /* width: 890.2px; */
         /* filter: none; */
+    }
+    .active-content img{
+        width:100%;
+        height:auto;
     }
 }
