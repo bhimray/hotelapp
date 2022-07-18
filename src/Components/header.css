@@ -1,5 +1,6 @@
-.mainContainer {
-    background-image: url('./images/modernInterior.jpg');
+
+.mainContainer{
+    background-image:url("./images/montreal.jpg");
     object-fit: cover;
     background-position: center;
     background-attachment: fixed;
