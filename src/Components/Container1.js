@@ -25,7 +25,7 @@ export default function Container1(){
                             <img src={bedRoom} height="300px" width="300px" alt="Bed Room"></img>
                         </div>
                         <figcaption>
-                            <h1>Delicious food</h1>
+                            <h1 className="tag">Delicious food</h1>
                             <p>
                                 Every food is cooked by Expert 
                                 gourmet.
@@ -43,7 +43,7 @@ export default function Container1(){
                             <img src={bedRoom} height="300px" width="300px" alt="Bed Room"></img>
                         </div>
                         <figcaption>
-                            <h1>Delicious food</h1>
+                            <h1 className="tag">Delicious food</h1>
                             <p>
                                 Every food is cooked by Expert 
                                 gourmet.
@@ -61,7 +61,7 @@ export default function Container1(){
                             <img src={bedRoom} height="300px" width="300px" alt="Bed Room"></img>
                         </div>
                         <figcaption>
-                            <h1>Delicious food</h1>
+                            <h1 className="tag">Delicious food</h1>
                             <p>
                                 Every food is cooked by Expert 
                                 gourmet.
@@ -79,7 +79,7 @@ export default function Container1(){
                             <img src={bedRoom} height="300px" width="300px" alt="Bed Room"></img>
                         </div>
                         <figcaption>
-                            <h1>Delicious food</h1>
+                            <h1 className="tag">Delicious food</h1>
                             <p>
                                 Every food is cooked by Expert 
                                 gourmet.
