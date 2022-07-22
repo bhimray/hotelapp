@@ -63,6 +63,10 @@ a{
     height:auto;
 }
 
+.activeParagraph {
+    padding: 20px;
+}
+
 
 @media only screen and (max-width:600px){
     .tabContainer{
@@ -108,7 +112,8 @@ a{
 
 @media only screen and (min-width:600px) and (max-width:989px){
     .active-content {
-        display: grid
+        display: grid;
+        
     }
     .active-content img{
         width:100%;
@@ -138,9 +143,10 @@ a{
     .active-content {
         display: grid;
         gap: 20px;
-        padding: 20px;
+        
         text-align: justify;
         width: 80vw;
+        padding: 20px;
     }
 
     .tabContainer {
@@ -157,4 +163,5 @@ a{
         width:100%;
         height:auto;
     }
+    
 }

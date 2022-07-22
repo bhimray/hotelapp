@@ -48,7 +48,7 @@ export default function Container2(){
 
                     <div className={toggleState===2? "content active-content": "content"}>
                         <img src={image}  alt="This is picture"></img>
-                        <div>
+                        <div className="activeParagraph">
                             <h1>Tab3</h1>
                             <LoremIpsum p={2}/>
                         </div>
@@ -56,7 +56,7 @@ export default function Container2(){
 
                     <div className={toggleState===3? "content active-content": "content"}>
                         <img src={image}  alt="This is picture"></img>
-                        <div>
+                        <div className="activeParagraph">
                             <h1>Tab3</h1>
                             <LoremIpsum p={2}/>
                         </div>
@@ -64,7 +64,7 @@ export default function Container2(){
 
                     <div className={toggleState===4? "content active-content": "content"}>
                         <img src={image}  alt="This is picture"></img>
-                        <div>
+                        <div className="activeParagraph">
                             <h1>Tab4</h1>
                             <LoremIpsum p={2}/>
                         </div>
