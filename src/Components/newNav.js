@@ -19,6 +19,9 @@ function NewNav(){
     
     return(
         <div className={navColor? "navColor Navbar":"Navbar"}>
+            <div className="rightSide">
+               <NavLink to="/"><TempleHinduIcon style={{color:"white"}}/></NavLink>
+            </div>
             <div className="leftSide">
                 <div className="links" id={showLinks? "hidden":""}>
                     <NavLink to="/" onClick={()=>setShowLinks(!showLinks)}>Home</NavLink>
@@ -30,9 +33,7 @@ function NewNav(){
                 </div>
                 <button onClick={()=>setShowLinks(!showLinks)}><ListRoundedIcon/></button>
             </div>
-            <div className="rightSide">
-               <NavLink to="/"><TempleHinduIcon style={{color:"white"}}/></NavLink>
-            </div>
+            
         </div>
     )
 }
