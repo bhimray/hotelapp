@@ -20,6 +20,7 @@ body{
     font-family: sans-serif;
     display: flex;
     position:sticky;
+    z-index: 99999999999999999999999999999999999999999999999999;
 }
 button:hover{
     cursor: pointer;
