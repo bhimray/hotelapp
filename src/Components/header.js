@@ -18,7 +18,7 @@ export default function header(){
                     <img src={modernInterior} alt="loading..." />
                 </div>
                 <div className="part3">
-                    <div>A/C Room</div>
+                    <div style={{fontSize:"30px", fontWeight:"bolder"}}>A/C Room</div>
                     <p>Lorem ipsum odor amet, consectetuer adipiscing elit.<br/>
                      Primis ultrices iaculis ex potenti quam.<br/> 
                      Odio duis magnis nibh ridiculus; nascetur taciti. 

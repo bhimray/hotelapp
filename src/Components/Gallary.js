@@ -113,10 +113,8 @@ const Photos=()=>{
     const [tempImg, setTempImg]=useState("");
 
     const getImg=(img)=>{
-      console.log(`clicked image is ${img}`);
       setTempImg(img);
       setModel(true);
-      console.log(`clicked image is ${setModel}`);
     }
     return(
         <div className='gallaryCont'>
@@ -130,13 +128,16 @@ const Photos=()=>{
             </div>
             <div className='gallary'>
                 {itemData.map((photo, index)=>{
-                    console.log(photo, index);
-                    return(
-                        <div className='pics' key={index} onClick={()=>getImg(photo.img)}>
-                            <img src={photo.img} style={{width:"100%"}} />
-                            <article>{photo.title}</article>
+                  return(
+                    <div className="picSet">
+                      <div className='pics' key={index} onClick={()=>getImg(photo.img)}>
+                        <img src={photo.img} style={{width:"100%"}} />
+                        <div class="text">
+                          {photo.title}
                         </div>
-                    )
+                      </div>
+                    </div>
+                  )
                 }
                 )}
             </div>
