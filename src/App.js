@@ -7,7 +7,7 @@ import Booking from "./pages/Booking"
 import Room from "./pages/Room"
 import Navigation from "./pages/Navigation"
 import Gallary from "./pages/Gallary"
-import SharedLayout from "./pages/SharedLayout"
+import SharedLayout from "./pages/SharedLayOut"
 function App() {
   return (
   <BrowserRouter>
